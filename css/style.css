@@ -1,0 +1,423 @@
+/* VERSION MOBILE*/
+
+@font-face {
+  font-family: "policetitle";
+  src: url("../typo/blackjack/blackjack.otf");
+  font-family: "policetexte";
+  src: url("../typo/afta-sans/AftaSansThin-Regular.otf");
+  font-family: "policehead";
+  src: url("../typo/Chantelli-Antiqua/Chantelli_Antiqua.ttf");
+  font-weight: bold;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+
+
+.cont {
+  color: black;
+  text-shadow: 2px 2px white;
+
+}
+
+.cont:hover {
+  text-decoration: none;
+  color: white;
+  text-shadow: 2px 2px black;
+}
+
+.scroll {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  height: 30vh;
+  width: 10vw;
+  position: fixed;
+  background-color: white;
+
+  border-radius: 10%;
+  opacity: 0.7;
+  padding: 2%;
+}
+
+.scroll:hover {
+  opacity: 1;
+}
+
+.img_contact {
+  height: 5vh;
+  width: 5vw;
+}
+
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.banner {
+  position: relative;
+
+}
+
+.name_cv {
+  position: absolute;
+  right: 10vh;
+  top: 5vh;
+}
+
+.navbar {
+  font-family: policetexte;
+}
+
+
+.info_bar {
+  text-align: center;
+  padding: 2%;
+  font-size: 1.25rem;
+  height: 10vh;
+  width: auto;
+  background-color: #322f2e;
+  color: white;
+  font-family: policetitle;
+  text-shadow: 4px 4px  #322f2e;
+}
+
+h1 {
+  font-family: policehead;
+  text-shadow: 2px 2px white;
+  animation: fadein 5s;
+  color:  #322f2e;
+
+
+}
+
+
+h1:hover {
+  color: white;
+  text-shadow: 4px 4px  #322f2e;
+  
+
+}
+
+h2 {
+  font-size: 1rem;
+  text-decoration: underline;
+  color: black;
+  text-shadow: 1px 1px grey;
+}
+
+.sous_cv {
+  font-family: policehead;
+  text-shadow: 1px 1px white;
+  font-size: 1.3rem;
+  animation: fadein 3s;
+  text-align: center;
+  margin-left: 10%;
+
+}
+
+
+.container_info {
+  width: auto;
+  height: 100vh;
+  background-image: linear-gradient(to bottom right, grey, white);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  font-family: policetexte;
+
+}
+
+.container_info--picture {
+  width: 40vw;
+  height: 47vh;
+  margin: 2%;
+  font-family: policetexte;
+
+}
+
+.picture_me {
+  width: 40vw;
+  height: 47vh;
+  border: 2px solid black;
+  box-shadow: 2px 2px #322f2e;
+  border-radius: 5%;
+
+}
+
+.container_info--CV {
+  width: 40vw;
+  height: 47vh;
+  border: 2px solid black;
+  box-shadow: 2px 2px #322f2e;
+  margin: 2%;
+  padding: 2%;
+  border-radius: 5%;
+  font-size: 0.8rem;
+  font-family: policetexte;
+}
+
+
+.container_info--pre {
+  width: 80vh;
+  height: 47vh;
+  border: 2px solid black;
+  box-shadow: 2px 2px #322f2e;
+  margin: 2%;
+  padding: 2%;
+  border-radius: 5%;
+  font-size: 0.8rem;
+  font-family: policetexte;
+
+
+
+}
+.container_info--pre_proj{
+  width: 80vh;
+  height: 47vh;
+  border: 2px solid black;
+  box-shadow: 2px 2px #322f2e;
+  margin: 2%;
+  padding: 2%;
+  border-radius: 5%;
+  font-size: 0.8rem;
+  font-family: policetexte;
+
+
+
+}
+
+.logo_skill {
+  height: 8vh;
+  width: 8vw;
+  transition-property: height;
+  transition-duration: 0.5s;
+}
+
+.logo_skill:hover {
+
+  height: 9.5vh;
+}
+
+
+.logo_block {
+  padding-top: 30%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+
+
+}
+
+.logo_flag {
+  height: 15vh;
+  width: 25vw;
+  transition-property: height;
+  transition-duration: 0.5s;
+}
+
+.logo_flag:hover {
+  height: 17vh;
+}
+
+.flag {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  padding: 2%;
+}
+
+
+
+.project1 {
+  height: 33vh;
+  width: 29vw;
+}
+
+/* VERSION PC*/
+
+@media screen and (min-width: 1200px) {
+
+
+  .scroll {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 40vh;
+    width: 9vw;
+    position: fixed;
+    background-color: white;
+    border-radius: 10%;
+    opacity: 0.7;
+    padding: 2%;
+    display: none;
+  }
+
+  .img_contact {
+    height: 5vh;
+    width: 5vw;
+  }
+
+  .banner {
+    position: relative;
+    animation: fadein 4s;
+  }
+
+  .name_cv {
+    position: absolute;
+    right: 65vh;
+    top: 30vh;
+    }
+
+  h1 {
+    font-size: 5rem;
+    text-shadow: 4px 4px white;
+    color:  #322f2e;
+    margin-left: 15%;
+
+  }
+
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  .sous_cv {
+    font-size: 3.5rem;
+    text-shadow: 2px 2px white;
+  }
+  
+
+  .info_bar {
+    text-align: center;
+    padding: 2%;
+
+    font-size: 2rem;
+    height: 10vh;
+    width: auto;
+    background-color: #322f2e;
+    color: white;
+  }
+
+
+  .container_info {
+    width: auto;
+    height: 50vh;
+    background-image: linear-gradient(to bottom right, grey, white);
+    display: flex;
+    flex-direction: row;
+
+  }
+
+  .container_info--picture {
+    width: 15vw;
+    height: 42vh;
+    margin: 2%;
+
+  }
+
+  .picture_me {
+    width: 15vw;
+    height: 42vh;
+    border: 2px solid black;
+    box-shadow: 2px 2px #322f2e;
+    border-radius: 5%;
+  }
+
+  .container_info--CV {
+    width: 40vw;
+    height: 42vh;
+    border: 2px solid black;
+    box-shadow: 2px 2px #322f2e;
+    margin: 2%;
+    padding: 2%;
+    border-radius: 5%;
+    font-size: 1.5rem;
+  }
+
+
+  .container_info--pre {
+    width: 65vh;
+    height: 42vh;
+    border: 2px solid black;
+    box-shadow: 2px 2px #322f2e;
+    margin: 2%;
+    padding: 2%;
+    border-radius: 5%;
+    font-size: 1.5rem;
+
+
+
+
+  }
+  .container_info--pre_proj {
+    width: 65vh;
+    height: 42vh;
+    border: 2px solid black;
+    box-shadow: 2px 2px #322f2e;
+    margin: 2%;
+    padding: 2%;
+    border-radius: 5%;
+    font-size: 1.5rem;
+
+
+
+
+
+  }
+
+  .logo_skill {
+    height: 10vh;
+    width: 4vw;
+  }
+
+  .logo_skill:hover {
+    height: 12vh;
+  }
+
+  .logo_block {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 10%;
+
+  }
+
+  .logo_flag {
+    height: 8vh;
+    width: 8vw;
+  }
+
+  .logo_flag:hover {
+    height: 10vh;
+  }
+
+
+  .flag {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 2%;
+  }
+
+
+  .project1 {
+    height: 15vh;
+    width: 11vw;
+  }
+}

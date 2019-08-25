@@ -1,0 +1,110 @@
+@keyframes fadein {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+
+  @font-face {
+    font-family: "policetitle";
+    src: url("../typo/blackjack/blackjack.otf");
+    font-family: "policetexte";
+    src: url("../typo/afta-sans/AftaSansThin-Regular.otf");
+    font-family: "policehead";
+    src: url("../typo/Chantelli-Antiqua/Chantelli_Antiqua.ttf");
+    font-weight: bold;
+  }
+p{
+    font-family: policehead;
+    font-size: 2.8rem;
+    color: white;
+    text-shadow: 2px 2px #322f2e;
+    padding-left: 4%;
+}
+p:hover{
+    color: #322f2e;
+    text-shadow: 2px 2px white;
+}
+.wolf{
+    height: 48vh;
+    width: 40vw;
+    margin-left: 25%;
+    margin-top: 6%;
+    opacity: 0.8;
+}
+.wolf:hover{
+    opacity: 1;
+    
+}
+
+body{
+    background-image: url(../IMG/cloud_bar.jpg);
+    background-size: 200vh 150vw;
+    
+}
+
+
+.circle_photo{
+    margin-top: 20%;
+    margin-left: 7%;
+    height: 55vh;
+    width: 80vw;
+    border: 6px solid  #322f2e;
+    border-radius: 50% / 50%;
+    background-color: white;
+    animation: fadein 2s;
+    
+    
+}
+
+@media screen and (min-width: 1200px) {
+
+
+body{
+    background-image: url(../IMG/cloud_bar.jpg);
+    background-size: cover;
+    
+}
+
+p{
+    font-family: policehead;
+    font-size: 6rem;
+    color: white;
+    text-shadow: 6px 6px #322f2e;
+    padding-left: 33%;
+}
+p:hover{
+    color: #322f2e;
+    text-shadow: 6px 6px white;
+}
+.circle_photo{
+    margin-top: 2%;
+    margin-left: 33%;
+    height: 60vh;
+    width: 30vw;
+    border: 6px solid  #322f2e;
+    border-radius: 50% / 50%;
+    background-color: white;
+    animation: fadein 2s;
+
+}
+
+.wolf{
+    height: 50vh;
+    width: 20vw;
+    margin-left: 15%;
+    margin-top: 10%;
+    opacity: 0.8;
+}
+
+.wolf:hover{
+    opacity: 1;
+    
+}
+
+
+}
+
