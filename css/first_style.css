@@ -1,3 +1,5 @@
+
+
 @keyframes fadein {
     from {
       opacity: 0;
@@ -40,13 +42,52 @@ p:hover{
     
 }
 
-body{
-    background-image: url(../IMG/cloud_bar.jpg);
-    background-size: 200vh 150vw;
-    
+body {
+ background: url(https://4.bp.blogspot.com/-Xod0I4z-Afw/UxhgJWuR92I/AAAAAAAABBU/mChGM9_J5Ls/s1600/9.jpg) no-repeat center center fixed;
+ overflow: hidden;
+ position: relative;
+ z-index: 5;
+}
+
+.cloud {
+ opacity: 0.8;
+ width: 100%;
+ max-width: 700px;
+ height: auto;
 }
 
 
+#cloud1 {
+ z-index: 1;
+ position: absolute;
+ top: -40px;
+ left: -100px;
+}
+
+#cloud2 {
+ z-index: 2;
+ position: absolute;
+ top: 20px;
+ left: -300px;
+}
+
+#cloud3 {
+ z-index: 3;
+ position: absolute;
+ top: -400px;
+ left: -200px;
+}
+
+#cloud4 {
+ z-index: 4;
+ position: absolute;
+ top:-200px;
+ left: 40px;
+}
+
+a{
+    text-decoration: none;
+}
 .circle_photo{
     margin-top: 20%;
     margin-left: 7%;
