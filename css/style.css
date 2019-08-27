@@ -1,5 +1,8 @@
 /* VERSION MOBILE*/
 
+body{
+  scroll-behavior: smooth;
+}
 @font-face {
   font-family: "policetitle";
   src: url("../typo/blackjack/blackjack.otf");
