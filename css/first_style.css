@@ -19,21 +19,11 @@
     src: url("../typo/Chantelli-Antiqua/Chantelli_Antiqua.ttf");
     font-weight: bold;
   }
-p{
-    font-family: policehead;
-    font-size: 2.8rem;
-    color: white;
-    text-shadow: 2px 2px #322f2e;
-    padding-left: 4%;
-}
-p:hover{
-    color: #322f2e;
-    text-shadow: 2px 2px white;
-}
+
 .wolf{
     height: 48vh;
     width: 40vw;
-    margin-left: 25%;
+    margin-left: 2%;
     margin-top: 6%;
     opacity: 0.8;
 }
@@ -47,50 +37,19 @@ body {
  overflow: hidden;
  position: relative;
  z-index: 5;
+ letter-spacing: 6px;
+ text-align: center;
+ font-size: 2rem;
+ margin-top: 8%;
+ margin-left: 5%;
+ font-family: policehead;
 }
 
-.cloud {
- opacity: 0.8;
- width: 100%;
- max-width: 700px;
- height: auto;
-}
 
 
-#cloud1 {
- z-index: 1;
- position: absolute;
- top: -40px;
- left: -100px;
-}
-
-#cloud2 {
- z-index: 2;
- position: absolute;
- top: 20px;
- left: -300px;
-}
-
-#cloud3 {
- z-index: 3;
- position: absolute;
- top: -400px;
- left: -200px;
-}
-
-#cloud4 {
- z-index: 4;
- position: absolute;
- top:-200px;
- left: 40px;
-}
-
-a{
-    text-decoration: none;
-}
 .circle_photo{
     margin-top: 20%;
-    margin-left: 7%;
+    margin-left: 4.5%;
     height: 55vh;
     width: 80vw;
     border: 6px solid  #322f2e;
@@ -99,7 +58,44 @@ a{
     animation: fadein 2s;
     
     
+    
 }
+.cloud {
+    opacity: 0.8;
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+   }
+   
+   
+   #cloud1 {
+    z-index: 1;
+    position: absolute;
+    top: -40px;
+    left: -100px;
+   }
+   
+   #cloud2 {
+    z-index: 2;
+    position: absolute;
+    top: 20px;
+    left: -300px;
+   }
+   
+   #cloud3 {
+    z-index: 3;
+    position: absolute;
+    top: -400px;
+    left: -200px;
+   }
+   
+   #cloud4 {
+    z-index: 4;
+    position: absolute;
+    top:-200px;
+    left: 40px;
+   }
+   
 
 @media screen and (min-width: 1200px) {
 
@@ -107,23 +103,15 @@ a{
 body{
     background-image: url(../IMG/cloud_bar.jpg);
     background-size: cover;
-    
+    font-size: 5rem;
+    margin-top: 5%;
+    margin-right: 2%;
 }
 
-p{
-    font-family: policehead;
-    font-size: 6rem;
-    color: white;
-    text-shadow: 6px 6px #322f2e;
-    padding-left: 33%;
-}
-p:hover{
-    color: #322f2e;
-    text-shadow: 6px 6px white;
-}
+
 .circle_photo{
-    margin-top: 2%;
-    margin-left: 33%;
+    margin-top: 5%;
+    margin-left: 30%;
     height: 60vh;
     width: 30vw;
     border: 6px solid  #322f2e;
@@ -136,7 +124,7 @@ p:hover{
 .wolf{
     height: 50vh;
     width: 20vw;
-    margin-left: 15%;
+    margin-left: 2%;
     margin-top: 10%;
     opacity: 0.8;
 }
@@ -148,4 +136,41 @@ p:hover{
 
 
 }
+
+.cloud {
+    opacity: 0.8;
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+   }
+   
+   
+   #cloud1 {
+    z-index: 1;
+    position: absolute;
+    top: -40px;
+    left: -100px;
+   }
+   
+   #cloud2 {
+    z-index: 2;
+    position: absolute;
+    top: 20px;
+    left: -300px;
+   }
+   
+   #cloud3 {
+    z-index: 3;
+    position: absolute;
+    top: -400px;
+    left: -200px;
+   }
+   
+   #cloud4 {
+    z-index: 4;
+    position: absolute;
+    top:-200px;
+    left: 40px;
+   }
+   
 
