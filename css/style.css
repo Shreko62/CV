@@ -1,7 +1,8 @@
 /* VERSION MOBILE*/
 
-body{
+html, body{
   scroll-behavior: smooth;
+  cursor: url('../IMG/dog.png'), auto;
 }
 @font-face {
   font-family: "policetitle";
@@ -98,18 +99,16 @@ body{
 
 h1 {
   font-family: policehead;
-  text-shadow: 2px 2px white;
   animation: fadein 5s;
-  color:  #322f2e;
-
-
+  color: white;
+  text-shadow: 4px 4px  #322f2e;
+  
 }
 
 
 h1:hover {
-  color: white;
-  text-shadow: 4px 4px  #322f2e;
-  
+  color:  #322f2e;
+  text-shadow: 2px 2px white;
 
 }
 
@@ -122,11 +121,12 @@ h2 {
 
 .sous_cv {
   font-family: policehead;
-  text-shadow: 1px 1px white;
+  text-shadow: 1px 1px #322f2e;
   font-size: 1.3rem;
   animation: fadein 3s;
   text-align: center;
   margin-left: 10%;
+  color: white;
 
 }
 
@@ -154,20 +154,20 @@ h2 {
 .picture_me {
   width: 40vw;
   height: 47vh;
-  border: 2px solid black;
-  box-shadow: 2px 2px #322f2e;
-  border-radius: 5%;
+  background-color: #cdd2c5;
+  box-shadow: 4px 4px #322f2e;
+  
 
 }
 
 .container_info--CV {
   width: 40vw;
   height: 47vh;
-  border: 2px solid black;
-  box-shadow: 2px 2px #322f2e;
+  background-color: #cdd2c5;
+  box-shadow: 4px 4px #322f2e;
   margin: 2%;
   padding: 2%;
-  border-radius: 5%;
+  
   font-size: 0.8rem;
   font-family: policetexte;
 }
@@ -176,11 +176,11 @@ h2 {
 .container_info--pre {
   width: 80vh;
   height: 47vh;
-  border: 2px solid black;
-  box-shadow: 2px 2px #322f2e;
+  background-color: #cdd2c5;
+  box-shadow: 4px 4px #322f2e;
   margin: 2%;
   padding: 2%;
-  border-radius: 5%;
+  
   font-size: 0.8rem;
   font-family: policetexte;
 
@@ -190,11 +190,11 @@ h2 {
 .container_info--pre_proj{
   width: 80vh;
   height: 47vh;
-  border: 2px solid black;
-  box-shadow: 2px 2px #322f2e;
+  background-color: #cdd2c5;
+  box-shadow: 4px 4px #322f2e;
   margin: 2%;
   padding: 2%;
-  border-radius: 5%;
+  
   font-size: 0.8rem;
   font-family: policetexte;
 
@@ -255,6 +255,11 @@ h2 {
 
 @media screen and (min-width: 1200px) {
 
+  
+  html,body{
+    cursor: url("../IMG/dog.png"), auto;
+  }
+
 
   .scroll {
     display: flex;
@@ -289,8 +294,8 @@ h2 {
 
   h1 {
     font-size: 5rem;
-    text-shadow: 4px 4px white;
-    color:  #322f2e;
+    text-shadow: 4px 4px #322f2e;
+    color:  white;
     margin-left: 15%;
 
   }
@@ -302,7 +307,8 @@ h2 {
 
   .sous_cv {
     font-size: 3.5rem;
-    text-shadow: 2px 2px white;
+    text-shadow: 2px 2px #322f2e;
+    color: white;
   }
   
 
@@ -337,19 +343,19 @@ h2 {
   .picture_me {
     width: 15vw;
     height: 42vh;
-    border: 2px solid black;
-    box-shadow: 2px 2px #322f2e;
-    border-radius: 5%;
+    background-color: #cdd2c5;
+    box-shadow: 6px 6px #322f2e;
+    
   }
 
   .container_info--CV {
     width: 40vw;
     height: 42vh;
-    border: 2px solid black;
-    box-shadow: 2px 2px #322f2e;
+    background-color: #cdd2c5;
+    box-shadow: 6px 6px #322f2e;
     margin: 2%;
     padding: 2%;
-    border-radius: 5%;
+    
     font-size: 1.5rem;
   }
 
@@ -357,11 +363,11 @@ h2 {
   .container_info--pre {
     width: 65vh;
     height: 42vh;
-    border: 2px solid black;
-    box-shadow: 2px 2px #322f2e;
+    background-color: #cdd2c5;
+    box-shadow: 6px 6px #322f2e;
     margin: 2%;
     padding: 2%;
-    border-radius: 5%;
+    
     font-size: 1.5rem;
 
 
@@ -371,11 +377,11 @@ h2 {
   .container_info--pre_proj {
     width: 65vh;
     height: 42vh;
-    border: 2px solid black;
-    box-shadow: 2px 2px #322f2e;
+    background-color: #cdd2c5;
+    box-shadow: 6px 6px #322f2e;
     margin: 2%;
     padding: 2%;
-    border-radius: 5%;
+  
     font-size: 1.5rem;
 
 
