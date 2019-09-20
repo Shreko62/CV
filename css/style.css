@@ -1,9 +1,13 @@
 /* VERSION MOBILE*/
+.project1, a{
+  cursor: url('../IMG/icons8-dog-paw-48.png'), auto;
+}
 
 html, body{
   scroll-behavior: smooth;
-  cursor: url('../IMG/dog.png'), auto;
+  
 }
+
 @font-face {
   font-family: "policetitle";
   src: url("../typo/blackjack/blackjack.otf");
@@ -102,6 +106,8 @@ h1 {
   animation: fadein 5s;
   color: white;
   text-shadow: 4px 4px  #322f2e;
+  text-align: center;
+  margin-left: 15%;
   
 }
 
@@ -122,11 +128,13 @@ h2 {
 .sous_cv {
   font-family: policehead;
   text-shadow: 1px 1px #322f2e;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   animation: fadein 3s;
   text-align: center;
   margin-left: 10%;
   color: white;
+  
+  
 
 }
 
@@ -249,15 +257,25 @@ h2 {
 .project1 {
   height: 33vh;
   width: 29vw;
+  opacity: 0.8;
+}
+
+.project1:hover{
+  opacity: 1;
 }
 
 /* VERSION PC*/
 
 @media screen and (min-width: 1200px) {
 
+  .project1, a{
+    cursor: url('../IMG/icons8-dog-paw-48.png'), auto;
+  }
   
+
   html,body{
-    cursor: url("../IMG/dog.png"), auto;
+    scroll-behavior: smooth;
+    
   }
 
 
