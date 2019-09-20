@@ -1,7 +1,5 @@
 /* VERSION MOBILE*/
-.project1, a{
-  cursor: url('../IMG/icons8-dog-paw-48.png'), auto;
-}
+
 
 html, body{
   scroll-behavior: smooth;
@@ -268,7 +266,7 @@ h2 {
 
 @media screen and (min-width: 1200px) {
 
-  .project1, a{
+  .project1{
     cursor: url('../IMG/icons8-dog-paw-48.png'), auto;
   }
   
