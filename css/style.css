@@ -301,7 +301,7 @@ h2 {
 /* VERSION TABLETTE */
 @media screen and (min-width: 768px) {
   .info_bar{
-    height: 6vh;
+    height: 8vh;
     
   }
   p{
@@ -323,7 +323,7 @@ h2 {
 
   .project1{
     padding-left: 2%;
-    width: 30vw;
+    width: 21vw;
   }
 }
 @media screen and (min-width: 770px) {
@@ -429,6 +429,33 @@ h2 {
   .project1{
     padding-left: 2%;
     width: 17vw;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .info_bar{
+    height: 8vh;
+    
+  }
+  p{
+    font-size: 1.2rem;
+  }
+
+  h2{
+    font-size: 1.7rem;
+  }
+
+  h1{
+    font-size: 5rem;
+    margin-right: 20%;
+  }
+
+  .sous_cv{
+    font-size:3rem;
+  }
+
+  .project1{
+    padding-left: 2%;
+    width: 21vw;
   }
 }
 
