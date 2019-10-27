@@ -262,6 +262,176 @@ h2 {
   opacity: 1;
 }
 
+/* VERSION IPHONE*/
+@media screen and (min-width: 360px) {
+  p{
+    font-size: 0.9rem;
+  }
+
+  .info_bar{
+    height: 7vh;
+  }
+}
+/* IMG */
+@media screen and (min-width: 430px) {
+  .project1{
+    width: 25vw;
+  }
+
+  .container_info{
+    height: 120vh;
+  }
+}
+@media screen and (min-width: 492px) {
+  h1{
+    font-size: 3rem;
+    margin-right: 12%;
+  }
+
+  .sous_cv{
+    font-size:1.5rem;
+  }
+
+  .project1{
+    width: 20vw;
+    padding-left: 2%;
+  }
+}
+
+/* VERSION TABLETTE */
+@media screen and (min-width: 768px) {
+  .info_bar{
+    height: 6vh;
+    
+  }
+  p{
+    font-size: 1.2rem;
+  }
+
+  h2{
+    font-size: 1.7rem;
+  }
+
+  h1{
+    font-size: 4.5rem;
+    margin-left: 25%;
+  }
+
+  .sous_cv{
+    font-size:3rem;
+  }
+
+  .project1{
+    padding-left: 2%;
+    width: 30vw;
+  }
+}
+@media screen and (min-width: 770px) {
+  .info_bar{
+    height: 10vh;
+    
+  }
+  p{
+    font-size: 1.2rem;
+  }
+
+  h2{
+    font-size: 1.7rem;
+  }
+
+  h1{
+    font-size: 5rem;
+  }
+
+  .sous_cv{
+    font-size:3rem;
+  }
+
+  .project1{
+    padding-left: 2%;
+    width: 20vw;
+  }
+}
+
+@media screen and (min-width: 818px) {
+  .info_bar{
+    height: 10vh;
+    
+  }
+  p{
+    font-size: 1.2rem;
+  }
+
+  h2{
+    font-size: 1.7rem;
+  }
+
+  h1{
+    font-size: 5rem;
+  }
+
+  .sous_cv{
+    font-size:3rem;
+  }
+
+  .project1{
+    padding-left: 2%;
+    width: 19vw;
+  }
+}
+@media screen and (min-width: 910px) {
+  .info_bar{
+    height: 10vh;
+    
+  }
+  p{
+    font-size: 1.2rem;
+  }
+
+  h2{
+    font-size: 1.7rem;
+  }
+
+  h1{
+    font-size: 5rem;
+  }
+
+  .sous_cv{
+    font-size:3rem;
+  }
+
+  .project1{
+    padding-left: 2%;
+    width: 18vw;
+  }
+}
+@media screen and (min-width: 940px) {
+  .info_bar{
+    height: 10vh;
+    
+  }
+  p{
+    font-size: 1.2rem;
+  }
+
+  h2{
+    font-size: 1.7rem;
+  }
+
+  h1{
+    font-size: 5rem;
+  }
+
+  .sous_cv{
+    font-size:3rem;
+  }
+
+  .project1{
+    padding-left: 2%;
+    width: 17vw;
+  }
+}
+
 /* VERSION PC*/
 
 @media screen and (min-width: 1200px) {
@@ -276,7 +446,9 @@ h2 {
     
   }
 
-
+  p{
+    font-size: 1.2rem;
+  }
   .scroll {
     display: flex;
     flex-direction: column;
@@ -333,7 +505,7 @@ h2 {
     padding: 2%;
 
     font-size: 2rem;
-    height: 12vh;
+    height: 10vh;
     width: auto;
     background-color: #322f2e;
     color: white;
